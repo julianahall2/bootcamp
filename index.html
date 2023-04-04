@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+</head>
+<body>
+    <h2>Elementos de um Formulário</h2>
+    <form action="" method="get">
+        <p>
+        Nome: <input type="text" name="nome"> 
+        <div></div>
+        Senha: <input type="password" name="senha">
+        </p>
+        <p>
+            Para qual time você torce?
+        </p>
+        <p>
+            <input type="radio" name="time" value="Brasil"> Brasil 
+        </p>
+        <p>
+            <input type="radio" name="time" value="Alemanha"> Alemanha
+        </p>
+        <p>
+            <input type="radio" name="time" value="Itália"> Itália
+        </p>
+        <input type="radio" name="time" value="Outro"> Outro
+        <div></div>
+        <p>Escolha seus esportes preferidos</p>
+        <p><input type="checkbox" name="esporte1" value="Futebol"> Futebol</p>
+        <p><input type="checkbox" name="esporte2" value="Vôlei"> Vôlei</p>
+        <p><input type="checkbox" name="esporte3" value="Basquete">Basquete</p>
+        <p><input type="checkbox" name="esporte4" value="Natação">Natação</p>
+        <p> Escolha sua cor preferida</p>
+        <p><input type="color" name="cor" ></p>
+        <p>Data Atual</p>
+        <p><input type="datetime-local" name="data"></p>
+        <p>Email</p>
+        <p><input type="email" name="email"></p>
+        <p>Arquivo</p>
+        <p><input type="file" name="arquivo"></p>
+        <p>Número</p>
+        <input type="number" name="quantidade" min="1" max="10"><br></p>
+        <p>Pontos</p>
+        <p><input type="range" name="pontos" min="0" max="10"></p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+        <p>Selecione sua comida preferida:</p>
+        <select name="Comida">
+            <option value="Pizza">Pizza</option>
+            <option value="Pastel">Pastel</option>
+            <option value="Churros">Churros</option>
+            <option value="Salada de frutas">Salada de frutas</option>
+        </select>
+        <p>Deixe aqui sua mensagem de apoio:</p>
+        <textarea name="mensagem" rows="10" cols="30">
+Rosas vermelhas florescem todo ano, se não pagar seu telefone vai entrar pelo cano.
+        </textarea>
+    <p><button type="button" onclick="alert('Digite tudo novamente!')">Clique Aqui</button></p>
+    <p>Atributos de entrada HTML <br>
+    <input type="text" name="nome" value="Maria"></p>
+    <p><input type="text" name="nome" value="José" readonly></p>
+    <p><input type="text" name="nome" value="Ana" disabled></p>
+    <p><input type="text" name="nome" value="João" size="40"></p>
+    <p><input type="text" name="nome" placeholder="Digite seu primeiro nome."></p>
+    <p> <input type="text" name="username" required></p>
+    </form>
+</body>
+</html>
